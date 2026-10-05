@@ -1,5 +1,6 @@
 [
     {
+        //add "resource-plank" to vanilla planks to make compatible with modded recipes.
         "file": "game:itemtypes/resource/plank.json",
         "op": "add",
         "path": "/tags",
