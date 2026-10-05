@@ -1,6 +1,7 @@
 [
     //Fruitpress
     {
+        //Remove duplicate recipes when used with game/add_tags.json5
         "file": "vanillavarnished:recipes/grid/wood/fruitpress.json",
         "op": "add",
         "path": "/enabled",
