@@ -1,0 +1,16 @@
+[
+    {
+        "file": "wildcrafttree:recipes/grid/fruitpress.json",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "wildcrafttree" } ]
+    },
+    {
+        "file": "wildcrafttree:recipes/grid/bellows.json",
+        "op": "add",
+        "path": "/0-1/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "wildcrafttree" } ]
+    }
+]

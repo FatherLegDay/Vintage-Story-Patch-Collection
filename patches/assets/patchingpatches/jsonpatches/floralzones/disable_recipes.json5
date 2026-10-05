@@ -1,0 +1,67 @@
+[
+    //Bellows
+    {
+        "file": "floralzonescentralaustralianregion:recipes/grid/bellows.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonescentralaustralianregion" } ]
+    },
+    {
+        "file": "floralzonescaribbeanregion:recipes/grid/bellows.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonescaribbeanregion" } ]
+    },
+    {
+        "file": "floralzonescaperegion:recipes/grid/bellows.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonescaperegion" } ]
+    },
+    {
+        "file": "floralzonesneozeylandicregion:recipes/grid/bellows.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonesneozeylandicregion" } ]
+    },
+    //Fruitpress
+    {
+        "file": "floralzonescentralaustralianregion:recipes/grid/wood/fruitpress.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonescentralaustralianregion" } ]
+    },
+    {
+        "file": "floralzonesmediterraneanregion:recipes/grid/wood/fruitpress.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonesmediterraneanregion" } ]
+    },
+    {
+        "file": "floralzonescaribbeanregion:recipes/grid/wood/fruitpress.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonescaribbeanregion" } ]
+    },
+    {
+        "file": "floralzonescaperegion:recipes/grid/wood/fruitpress.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonescaperegion" } ]
+    },
+    {
+        "file": "floralzonesneozeylandicregion:recipes/grid/wood/fruitpress.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "floralzonesneozeylandicregion" } ]
+    }
+]

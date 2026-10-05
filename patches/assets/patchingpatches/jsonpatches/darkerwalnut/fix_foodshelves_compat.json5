@@ -1,0 +1,16 @@
+[
+    {
+        "file": "darkerwalnut:patches/foodshelves.json",
+        "op": "replace",
+        "path": "/file=foodshelves:blocktypes//glassware//ceilingjar/file",
+        "value": "foodshelves:blocktypes/glassware/jarlarge",
+        "dependsOn": [{ "modId": "darkerwalnut" }]
+    },
+    {
+        "file": "darkerwalnut:patches/foodshelves.json",
+        "op": "replace",
+        "path": "/file=foodshelves:blocktypes//unimplemented//glassjar/file",
+        "value": "foodshelves:blocktypes/glassware/jar",
+        "dependsOn": [{ "modId": "darkerwalnut" }]
+    }
+]

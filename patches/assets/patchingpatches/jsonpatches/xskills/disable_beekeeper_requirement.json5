@@ -1,0 +1,23 @@
+// We have disabled the beekeeper abilities. However, this does not remove the requirement from other abilities.
+// This patch removes the requirement from all abilities so they are obtainable usable.
+[
+    // Remove beekeeper from all abilities
+    {
+        "file": "@xskills:skills/*.json",
+        "op": "remove",
+        "path": "/@@*/requirements/ability=beekeeper",
+        "dependsOn": [
+            { "modid":  "xskillsfork" } 
+        ]
+    },
+    
+    // Duplicated for now because xskillsfork lies and claims to be xskills
+    {
+        "file": "@xskills:skills/*.json",
+        "op": "remove",
+        "path": "/@@*/requirements/ability=beekeeper",
+        "dependsOn": [
+            { "modid":  "xskills" }
+        ]
+    }
+]

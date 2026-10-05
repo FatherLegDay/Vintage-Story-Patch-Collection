@@ -1,0 +1,74 @@
+[
+	//Default: 12 Huge Hides
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/13/output/quantity",
+        "value": 4,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 6 Huge Hides
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/12/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 5 Huge Hides
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/11/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 4 Huge Hides	
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/10/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 7 Large Hides	
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/9/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 5 Large Hides
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/8/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 4 Large Hides
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/7/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 3 Large Hides
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/6/output/quantity",
+        "value": 1,
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+	//Default: 1 Large Hides	
+    {
+        "file": "bovinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/5/output/quantity",
+        "value": 1,
+        "dependsOn": [{ "modId": "bovinae" }]
+    }
+]

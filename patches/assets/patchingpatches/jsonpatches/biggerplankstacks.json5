@@ -1,0 +1,54 @@
+[
+	{
+		"file": "@@game:blocktypes/wood/woodtyped/planks\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64
+	},
+	{
+		"file": "@@game:blocktypes/wood/planks-burned\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64
+	},
+	{
+		"file": "@@bdtree:blocktypes/wood/woodtyped/planks\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64,
+		"dependsOn": [ { "modId": "bdtree" } ]
+	},
+	{
+		"file": "@@floralzones[a-z]+:blocktypes/wood/woodtyped/planks\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64
+	},
+	{
+		"file": "@@wildcrafttree:blocktypes/wood/woodtyped/planks\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64,
+		"dependsOn": [ { "modId": "wildcrafttree" } ]
+	},
+	{
+		"file": "@@vanillavarnished:blocktypes/wood/woodtyped/planks\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64,
+		"dependsOn": [ { "modId": "vanillavarnished" } ]
+	},
+	{
+		"file": "@@floralzones[a-z]+:blocktypes/wood/cadjan\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64
+	},
+	{
+		"file": "@@aldiclasses:blocktypes/wood/woodtyped/(alignedplanks|herringboneplanks|thinalignedplanks|thinplanks)\.json",
+		"op": "replace",
+		"path": "/@@@max[Ss]tack[Ss]ize",
+		"value": 64,
+		"dependsOn": [ { "modId": "aldiclasses" } ]
+	}
+]

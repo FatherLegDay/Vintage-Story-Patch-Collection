@@ -1,0 +1,23 @@
+[
+    //add chisel and tool tags to QPChisels
+    {
+        "file": "chiseltools:itemtypes/truechisel.json",
+        "op": "addmerge",
+        "path": "tags",
+        "value": [
+		"tool",
+		"tool-chisel"
+		],
+        "dependsOn": [ { "modId": "chiseltools" } ]
+    },
+    {
+        "file": "chiseltools:itemtypes/qpultchisel.json",
+        "op": "addmerge",
+        "path": "tags",
+        "value": [
+		"tool",
+		"tool-chisel"
+		],
+        "dependsOn": [ { "modId": "chiseltools" } ]
+    }
+]

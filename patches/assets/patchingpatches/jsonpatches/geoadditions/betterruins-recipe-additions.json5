@@ -1,0 +1,75 @@
+[
+    {
+        "file": "betterruins:recipes/grid/schematic-stone/stone.json",
+        "op": "addeach",
+        "path": "/0-5/ingredients/B/allowedVariants/-",
+        "value": [
+            "dolostone",
+            "siltstone",
+            "mudstone",
+            "rhyolite",
+            "pumice",
+            "diorite",
+            "gabbro",
+            "schist",
+            "gneiss",
+            "migmatite",
+            "amphibolite",
+            "jade",
+            "jasper"
+        ],
+        "dependsOn": [
+            { "modId": "betterruins" },
+            { "modId": "geoaddons" }
+        ]
+    },
+    
+	{
+		"file": "betterruins:recipes/grid/schematic-stone/stone.json",
+		"op": "addeach",
+		"path": "/7-12/ingredients/B/allowedVariants/-",
+		"value": [
+			"dolostone",
+			"siltstone",
+			"mudstone",
+			"rhyolite",
+			"pumice",
+			"diorite",
+			"gabbro",
+			"schist",
+			"gneiss",
+			"migmatite",
+			"amphibolite",
+			"jade",
+			"jasper"
+		],
+        "dependsOn": [
+            { "modId": "betterruins" },
+            { "modId": "geoaddons" }
+        ]
+	},
+	{
+		"file": "betterruins:recipes/grid/schematic-stone/stone.json",
+		"op": "addeach",
+		"path": "/25/ingredients/T/allowedVariants/-",
+		"value": [
+			"dolostone",
+			"siltstone",
+			"mudstone",
+			"rhyolite",
+			"pumice",
+			"diorite",
+			"gabbro",
+			"schist",
+			"gneiss",
+			"migmatite",
+			"amphibolite",
+			"jade",
+			"jasper"
+		],
+        "dependsOn": [
+            { "modId": "betterruins" },
+            { "modId": "geoaddons" }
+        ]
+	}
+]

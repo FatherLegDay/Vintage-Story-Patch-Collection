@@ -1,0 +1,84 @@
+// Recent xSkills versions mistakenly removed the knowledge book requirement from certain abilities. This restores them.
+[
+    // Restore Monster Expert requirement
+    {
+        "file": "xskills:skills/combat.json",
+        "op": "add",
+        "path": "/monsterexpert",
+        "value": {
+            "requirements": [
+                {
+                    "code": "knowledge",
+                    "minimumTier": 1,
+                    "hideUntilFulfilled": true,
+                    "name": "xskills:monster",
+                    "level": 1
+                }
+            ]
+        },
+        "dependsOn": [
+            { "modid":  "xskillsfork" }
+        ]
+    },
+    // Duplicated for now because xskillsfork lies and claims to be xskills
+    {
+        "file": "xskills:skills/combat.json",
+        "op": "add",
+        "path": "/monsterexpert",
+        "value": {
+            "requirements": [
+                {
+                    "code": "knowledge",
+                    "minimumTier": 1,
+                    "hideUntilFulfilled": true,
+                    "name": "xskills:monster",
+                    "level": 1
+                }
+            ]
+        },
+        "dependsOn": [
+            { "modid":  "xskills" }
+        ]
+    },
+
+    // Restore Meteorologist requirement
+    {
+        "file": "xskills:skills/survival.json",
+        "op": "add",
+        "path": "/meteorologist",
+        "value": {
+            "requirements": [
+                {
+                    "code": "knowledge",
+                    "minimumTier": 1,
+                    "hideUntilFulfilled": true,
+                    "name": "xskills:meteorology",
+                    "level": 1
+                }
+            ]
+        },
+        "dependsOn": [
+            { "modid":  "xskillsfork" }
+        ]
+    },
+    // Duplicated for now because xskillsfork lies and claims to be xskills
+    {
+        "file": "xskills:skills/survival.json",
+        "op": "add",
+        "path": "/meteorologist",
+        "value": {
+            "requirements": [
+                {
+                    "code": "knowledge",
+                    "minimumTier": 1,
+                    "hideUntilFulfilled": true,
+                    "name": "xskills:meteorology",
+                    "level": 1
+                }
+            ]
+        },
+        "dependsOn": [
+            { "modid":  "xskills" }
+        ]
+    }
+]

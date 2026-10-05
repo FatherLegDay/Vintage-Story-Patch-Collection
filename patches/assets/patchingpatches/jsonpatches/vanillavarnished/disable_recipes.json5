@@ -1,0 +1,10 @@
+[
+    //Fruitpress
+    {
+        "file": "vanillavarnished:recipes/grid/wood/fruitpress.json",
+        "op": "add",
+        "path": "/enabled",
+        "value": "false",
+        "dependsOn": [ { "modId": "vanillavarnished" } ]
+    }
+]

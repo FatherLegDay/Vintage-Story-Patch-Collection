@@ -1,0 +1,9 @@
+[
+    {
+        "file": "reverence:recipes/grid/utility/reverence-schematic-recipe.json",
+        "op": "add",
+        "path": "/0/enabled",
+        "value": "false",
+        "dependsOn": [{ "modId": "reverence" }]
+    }
+]

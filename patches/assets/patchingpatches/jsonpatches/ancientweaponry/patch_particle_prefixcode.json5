@@ -1,0 +1,30 @@
+[
+    {
+        "file": "ancientweaponry:itemtypes/tool/head/zweihanderhead.json",
+        "op": "replace",
+        "path": "/particlesTextureCode",
+        "value": "steel",
+        "dependsOn": [ { "modId": "ancientweaponry" } ]
+    },
+    {
+        "file": "ancientweaponry:itemtypes/tool/head/hastahead.json",
+        "op": "replace",
+        "path": "/particlesTextureCode",
+        "value": "steel",
+        "dependsOn": [ { "modId": "ancientweaponry" } ]
+    },
+    {
+        "file": "ancientweaponry:itemtypes/tool/head/cutlasshead.json",
+        "op": "replace",
+        "path": "/particlesTextureCode",
+        "value": "steel",
+        "dependsOn": [ { "modId": "ancientweaponry" } ]
+    },
+    {
+        "file": "ancientweaponry:itemtypes/tool/head/canopenerhead.json",
+        "op": "replace",
+        "path": "/particlesTextureCode",
+        "value": "head",
+        "dependsOn": [ { "modId": "ancientweaponry" } ]
+    }
+]

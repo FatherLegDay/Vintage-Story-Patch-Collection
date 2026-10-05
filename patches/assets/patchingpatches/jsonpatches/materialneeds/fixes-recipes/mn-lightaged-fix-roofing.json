@@ -1,0 +1,220 @@
+// A new recipe was inserted into the middle of the array between game@1.22.3 and game@1.22.5.
+// To fix this, we increment each broken index in these patches by 1.
+[
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/0/path",
+		"value": "/70/ingredients/P/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/1/path",
+		"value": "/71/ingredients/P/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/2/path",
+		"value": "/72/ingredients/P/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/3/path",
+		"value": "/73/ingredients/P/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/4/path",
+		"value": "/74/ingredients/P/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/5/path",
+		"value": "/82/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/6/path",
+		"value": "/83/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/7/path",
+		"value": "/84/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/8/path",
+		"value": "/85/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/9/path",
+		"value": "/86/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/10/path",
+		"value": "/87/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/11/path",
+		"value": "/88/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/12/path",
+		"value": "/89/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/13/path",
+		"value": "/90/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/14/path",
+		"value": "/91/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/15/path",
+		"value": "/92/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/16/path",
+		"value": "/93/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	},
+	{
+		"file": "materialneeds:patches/fixes-recipes/mn-lightaged-fix-roofing.json",
+		"op": "replace",
+		"path": "/17/path",
+		"value": "/94/ingredients/H/skipVariants",
+		"side": "Server",
+		"dependsOn": [
+			{
+				"modId": "materialneeds"
+			}
+		]
+	}
+]

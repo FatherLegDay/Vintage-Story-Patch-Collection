@@ -1,0 +1,10 @@
+// I considered converting these but 1.3.4 simply lacks this file so I figured I'd just disable them for now instead
+[
+    {
+        "file": "wildcrafttree:patches/survival-blocktypes-clay-pot.json",
+        "op": "addmerge",
+        "path": "/-/enabled",
+        "value": false,
+        "dependsOn": [{ "modId": "wildcrafttree" }]
+    }
+]

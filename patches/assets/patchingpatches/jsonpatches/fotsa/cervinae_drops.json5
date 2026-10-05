@@ -1,0 +1,18 @@
+[
+	//Default: 4 Huge Hides
+    {
+        "file": "cervinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/2/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "cervinae" }]
+    },
+	//Default: 3 Huge Hides
+    {
+        "file": "cervinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/1/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "cervinae" }]
+    }
+]

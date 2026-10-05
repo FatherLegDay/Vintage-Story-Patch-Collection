@@ -1,0 +1,50 @@
+[
+    // Reef Fish
+    {
+        "file": "bovinae:patches/animalbehaviors/survival-entities-animal-fish-reef-adult.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/6/aitasks/3/entityCodes/-",
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+    
+    // Fresh Water Fish
+    {
+        "file": "bovinae:patches/animalbehaviors/survival-entities-animal-fish-salmon.json",
+        "op": "replace",
+        "path": "/0/file",
+        "value": "game:entities/animal/fish/freshwater-adult.json"
+    },
+    {
+        "file": "bovinae:patches/animalbehaviors/survival-entities-animal-fish-salmon.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/6/aitasks/5/entityCodes/-",
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+    
+    // Salt Water Fish
+    {
+        "file": "bovinae:patches/animalbehaviors/survival-entities-animal-fish-saltwater-adult.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/6/aitasks/3/entityCodes/-",
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+    
+    // Bears
+    {
+        "file": "bovinae:patches/animalbehaviors/survival-entities-animal-mammal-bear-adult.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/9/aitasks/3/entityCodesByType/*/-",
+        "dependsOn": [{ "modId": "bovinae" }]
+    },
+    {
+        "file": "bovinae:patches/animalbehaviors/survival-entities-animal-mammal-bear-adult.json",
+        "op": "replace",
+        "path": "/1/path",
+        "value": "/server/behaviors/9/aitasks/4/entityCodes/-",
+        "dependsOn": [{ "modId": "bovinae" }]
+    }
+]

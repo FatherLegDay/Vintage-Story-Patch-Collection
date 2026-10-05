@@ -1,0 +1,146 @@
+[
+	//Default: 6 Salted Huge Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/0/35/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 4 Salted Huge Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/34/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 6 Salted Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/33/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 5 Salted Large Hides	
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/32/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 4 Salted Large Hides	
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/31/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 3 Salted Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/30/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 6 Huge Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/23/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 4 Huge Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/22/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 6 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/21/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 5 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/20/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 4 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/19/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 3 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/18/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 6 Huge Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/11/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 4 Huge Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/10/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 6 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/9/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 5 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/8/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 4 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/7/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    },
+	//Default: 3 Large Hides
+    {
+        "file": "capreolinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/6/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "capreolinae" }]
+    }
+]

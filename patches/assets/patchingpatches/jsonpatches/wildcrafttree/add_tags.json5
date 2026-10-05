@@ -1,0 +1,9 @@
+[
+    {
+        "file": "wildcrafttree:itemtypes/resource/plank.json",
+        "op": "add",
+        "path": "/tags",
+        "value": [ "resource-plank" ],
+        "dependsOn": [{ "modId": "wildcrafttree" }]
+    }
+]

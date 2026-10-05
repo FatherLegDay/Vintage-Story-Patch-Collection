@@ -1,0 +1,22 @@
+[
+    {
+        "file": "game:recipes/grid/bellows.json",
+        "op": "replace",
+        "path": "/2-3/ingredients/P",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 3
+        }
+    },
+    {
+        "file": "game:recipes/grid/fruitpress.json",
+        "op": "replace",
+        "path": "/0/ingredients/P",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 3
+        }
+    }
+]

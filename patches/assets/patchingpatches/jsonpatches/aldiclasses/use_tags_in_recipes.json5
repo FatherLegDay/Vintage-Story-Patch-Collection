@@ -1,0 +1,13 @@
+[
+    {
+        "file": "aldiclasses:recipes/grid/veganingeinuity-fruitpress.json",
+        "op": "replace",
+        "path": "/0/ingredients/P",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 3
+        },
+        "dependsOn": [ { "modId": "aldiclasses" } ]
+    }
+]

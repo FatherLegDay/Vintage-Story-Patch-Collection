@@ -1,0 +1,18 @@
+// TODO: Look into fixing these patches properly rather than just disabling them.
+[
+    {
+        "file": "vintagearachnoid:patches/irakonuladditionspatch.json",
+        "op": "addmerge",
+        "path": "/-/dependsOn",
+        "value": [{ "modId": "disabled" }],
+        "dependsOn": [{ "modId": "vintagearachnoid" }]
+    },
+
+    {
+        "file": "vintagearachnoid:patches/forgottenarmorypatch.json",
+        "op": "addmerge",
+        "path": "/-/dependsOn",
+        "value": [{ "modId": "disabled" }],
+        "dependsOn": [{ "modId": "vintagearachnoid" }]
+    }
+]

@@ -1,0 +1,98 @@
+[
+	//Default: 8 Salted Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/14/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 7 Salted Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/13/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 6 Salted Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/12/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 5 Salted Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/11/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 8 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/9/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 7 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/8/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 6 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/7/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 5 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/6/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 8 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/4/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 7 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/3/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 6 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/2/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    },
+	//Default: 5 Huge Hides
+    {
+        "file": "machairodontinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/1/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "machairodontinae" }]
+    }
+]

@@ -1,0 +1,68 @@
+// This patch replaces "Bigger Wood Log Stacks (x64)" as that mod is semi-broken in the current versions
+[
+    {
+        "file": "@@game:blocktypes/wood/woodtyped/log(?:|-[-a-z0-9]+)\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64
+    },
+    {
+        "file": "@@bdtree:blocktypes/wood/woodtyped/log(?:|-[-a-z0-9]+)\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64,
+        "dependsOn": [ { "modId": "bdtree" } ]
+    },
+    {
+        "file": "@@floralzones[a-z]+:blocktypes/wood/woodtyped/log(?:|-[-a-z0-9]+)\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64
+    },
+    {
+        "file": "@@wildcrafttree:blocktypes/wood/woodtyped/log(?:|-[-a-z0-9]+)\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64
+    },
+    {
+        "file": "@@floralzones[a-z]+:blocktypes/wood/log(?:|-[-a-z0-9]+)\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64
+    },
+    {
+        "file": "@@floralzones[a-z]+:blocktypes/wood/(woodtyped/|)thintrunk\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64
+    },
+    {
+        "file": "@@wildcrafttree:blocktypes/wood/woodtyped/thintrunk\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64,
+        "dependsOn": [ { "modId": "wildcrafttree" } ]
+    },
+    {
+        "file": "@@wildcrafttree:blocktypes/wood/woodtyped/log(?:|-[-a-z0-9]+)\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64,
+        "dependsOn": [ { "modId": "wildcrafttree" } ]
+    },
+    {
+        "file": "@@wildcrafttree:blocktypes/wood/woodtyped/thintrunk\.json",
+        "op": "replace",
+        "path": "/@@@max[Ss]tack[Ss]ize",
+        "value": 64,
+        "dependsOn": [ { "modId": "wildcrafttree" } ]
+    },
+    {
+        "file": "vanillavarnished:blocktypes/wood/woodtyped/log-debarked.json",
+        "op": "replace",
+        "path": "/maxstacksize",
+        "value": 64,
+        "dependsOn": [ { "modId": "vanillavarnished" } ]
+    }
+]

@@ -1,0 +1,133 @@
+// Wildcraft mods are very invasive. These patches make some of their patches less invasive.
+// TODO: Fix these patch-patches once addmerge is fixed in JSON Patches Lib
+[
+//    // Disable the initial patches without removing them
+//    {
+//        "file": "wildcrafttree:patches/leaves.json",
+//        "op": "add",
+//        "path": "/op=remove/dependsOn",
+//        "value": [
+//            { "modId": "disabled" }
+//        ],
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//    {
+//        "file": "wildcrafttree:patches/leaves.json",
+//        "op": "add",
+//        "path": "/path=//dropsByType/dependsOn",
+//        "value": [
+//            { "modId": "disabled" }
+//        ],
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//
+//    // Merge the patches into the original drop tables
+//    // normal.json seeds
+//    {
+//        "file": "game:blocktypes/plant/leaves/normal.json",
+//        "op": "addmerge",
+//        "path": "/drops/code=treeseed-{wood}/quantityByType",
+//        "value": {
+//            "*-redwood": { avg: 0.01, var: 0 }, // Buffed from vanilla 0.002
+//            "*-pine": { avg: 0.04, var: 0 }, // Nerfed from vanilla 0.05
+//            "*-acacia": { avg: 0.04, var: 0 }, // Nerfed from vanilla 0.05
+//            "*-walnut": { avg: 0.02, var: 0 }, // Not in vanilla
+//            "*-oak": { avg: 0.02, var: 0 }, // Not in vanilla
+//            "*-kapok": { avg: 0.02, var: 0 }, // Not in vanilla
+//            "*-birch": { avg: 0.02, var: 0 }, // Not in vanilla
+//            "*-larch": { avg: 0.02, var: 0 } // Buffed from vanilla 0.01
+//        },
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//
+//    // normal.json wildcraft canes
+//    {
+//        "file": "game:blocktypes/plant/leaves/normal.json",
+//        "op": "add",
+//        "path": "/drops",
+//        "value": {
+//            "type": "item",
+//            "code": "wildcrafttree:willowcane-{wood}",
+//            "quantityByType": {
+//                "*-walnut": { avg: 0.6, var: 0 },
+//                "*-oak": { avg: 0.6, var: 0 },
+//                "*-kapok": { avg: 0.1, var: 0 },
+//                "*-birch": { avg: 0.1, var: 0 },
+//                "*-larch":  { avg: 0.1, var: 0 },
+//                "*": 0
+//            }
+//        },
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//
+//    // Move the wildcard to the end
+//    {
+//        "file": "game:blocktypes/plant/leaves/normal.json",
+//        "op": "move",
+//        "fromPath": "/drops/code=treeseed-{wood}/quantityByType/*",
+//        "path": "/temp",
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//    {
+//        "file": "game:blocktypes/plant/leaves/normal.json",
+//        "op": "move",
+//        "fromPpath": "/temp",
+//        "path": "/drops/code=treeseed-{wood}/quantityByType/*",
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//
+//    // Merge the patches into the original drop tables
+//    // branchy.json seeds
+//    {
+//        "file": "game:blocktypes/plant/leaves/branchy.json",
+//        "op": "addmerge",
+//        "path": "/drops/code=treeseed-{wood}/quantityByType",
+//        "value": {
+//            "*-redwood": { avg: 0.03, var: 0 }, // Buffed from vanilla 0.004
+//            "*-pine": { avg: 0.1, var: 0 }, // Nerfed from vanilla 0.12
+//            "*-walnut": { avg: 0.06, var: 0 }, // Not in vanilla
+//            "*-oak": { avg: 0.06, var: 0 }, // Not in vanilla
+//            "*-kapok": { avg: 0.06, var: 0 }, // Not in vanilla
+//            "*-birch": { avg: 0.06, var: 0 }, // Not in vanilla
+//            "*-larch": { avg: 0.06, var: 0 }, // Buffed from vanilla 0.01
+//            "*": { avg: 0.06, var: 0 } // Buffed from vanilla 0.05
+//        },
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//
+//    // branchy.json wildcraft leaves
+//    {
+//        "file": "game:blocktypes/plant/leaves/branchy.json",
+//        "op": "add",
+//        "path": "/drops",
+//        "value": {
+//            "type": "item",
+//            "code": "wildcrafttree:leaves-{wood}",
+//            "quantityByType": {
+//                "*-walnut": { avg: 0.3, var: 0 },
+//                "*-oak": { avg: 0.3, var: 0 },
+//                "*-kapok": { avg: 0.8, var: 0 },
+//                "*-birch": { avg: 0.8, var: 0 },
+//                "*-larch":  { avg: 0.8, var: 0 },
+//                "*": 0
+//            }
+//        },
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//
+//    // Move the wildcard to the end
+//    {
+//        "file": "game:blocktypes/plant/leaves/branchy.json",
+//        "op": "move",
+//        "fromPath": "/drops/code=treeseed-{wood}/quantityByType/*",
+//        "path": "/temp",
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    },
+//    {
+//        "file": "game:blocktypes/plant/leaves/branchy.json",
+//        "op": "move",
+//        "fromPpath": "/temp",
+//        "path": "/drops/code=treeseed-{wood}/quantityByType/*",
+//        "dependsOn": [{ "modId": "wildcrafttree" }]
+//    }
+]

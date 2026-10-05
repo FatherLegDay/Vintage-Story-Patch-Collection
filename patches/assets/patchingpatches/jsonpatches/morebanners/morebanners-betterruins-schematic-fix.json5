@@ -1,0 +1,44 @@
+[
+	{
+		"file": "morebanners:compatibility/betterruins/recipes/grid/schematic-banner/_bannerclutter-notcollected-more.json",
+		"op": "add",
+		"path": "/0-87/ingredients/X/consume",
+		"value": false,
+        "dependsOn": [{ "modId": "morebanners" }, { "modId": "betterruins" }]
+	},
+	{
+		"file": "morebanners:compatibility/betterruins/recipes/grid/schematic-banner/_bannerclutter-notcollected-thread.json",
+		"op": "add",
+		"path": "/0-54/ingredients/X/consume",
+		"value": false,
+        "dependsOn": [{ "modId": "morebanners" }, { "modId": "betterruins" }]
+	},
+	{
+		"file": "morebanners:compatibility/betterruins/recipes/grid/schematic-banner/_bannerclutter-notcollected-vanilla.json",
+		"op": "add",
+		"path": "/0-4/ingredients/X/consume",
+		"value": false,
+        "dependsOn": [{ "modId": "morebanners" }, { "modId": "betterruins" }]
+	},
+	{
+		"file": "morebanners:compatibility/betterruins/recipes/grid/schematic-banner/bannerclutter-more.json",
+		"op": "add",
+		"path": "/0-87/ingredients/X/consume",
+		"value": false,
+        "dependsOn": [{ "modId": "morebanners" }, { "modId": "betterruins" }]
+	},
+	{
+		"file": "morebanners:compatibility/betterruins/recipes/grid/schematic-banner/bannerclutter-thread.json",
+		"op": "add",
+		"path": "/0-54/ingredients/X/consume",
+		"value": false,
+        "dependsOn": [{ "modId": "morebanners" }, { "modId": "betterruins" }]
+	},
+	{
+		"file": "morebanners:compatibility/betterruins/recipes/grid/schematic-banner/bannerclutter-vanilla.json",
+		"op": "add",
+		"path": "/0-4/ingredients/X/consume",
+		"value": false,
+        "dependsOn": [{ "modId": "morebanners" }, { "modId": "betterruins" }]
+	}
+]

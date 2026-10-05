@@ -1,0 +1,54 @@
+[
+    {
+        "file": "game:itemtypes/meta/stackrandomizer.json",
+        "op": "addmerge",
+        "path": "/attributesByType/*-resource/stacks",
+        "value": [
+            {
+                "type": "item",
+                "code": "reverence:rev-schematic",
+                "chance": 2.5
+            }
+        ],
+        "dependsOn": [ { "modId": "reverence" } ]
+    },
+    {
+        "file": "game:itemtypes/meta/stackrandomizer.json",
+        "op": "addmerge",
+        "path": "/attributesByType/*-accessory-lowstatus/stacks",
+        "value": [
+            {
+                "type": "item",
+                "code": "reverence:rev-schematic",
+                "chance": 0.25
+            }
+        ],
+        "dependsOn": [ { "modId": "reverence" } ]
+    },
+    {
+        "file": "game:itemtypes/meta/stackrandomizer.json",
+        "op": "addmerge",
+        "path": "/attributesByType/*-accessory-mediumstatus/stacks",
+        "value": [
+            {
+                "type": "item",
+                "code": "reverence:rev-schematic",
+                "chance": 0.35
+            }
+        ],
+        "dependsOn": [ { "modId": "reverence" } ]
+    },
+    {
+        "file": "game:itemtypes/meta/stackrandomizer.json",
+        "op": "addmerge",
+        "path": "/attributesByType/*-accessory-highstatus/stacks",
+        "value": [
+            {
+                "type": "item",
+                "code": "reverence:rev-schematic",
+                "chance": 0.5
+            }
+        ],
+        "dependsOn": [ { "modId": "reverence" } ]
+    }
+]

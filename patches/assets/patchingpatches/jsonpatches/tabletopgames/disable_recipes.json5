@@ -1,0 +1,28 @@
+[
+	{
+		"file": "@tabletopgames:recipes/smithing/*.json",
+		"op": "addmerge",
+		"path": "ingredient/skipVariants",
+		"value": [
+			"blistersteel"
+		],
+		"dependsOn": [
+			{
+				"modId": "tabletopgames"
+			}
+		]
+	},
+	{
+		"file": "@tabletopgames:recipes/smithing/*.json",
+		"op": "addmerge",
+		"path": "ingredient/skipVariants",
+		"value": [
+			"blisteruraniumsteel"
+		],
+		"dependsOn": [
+			{
+				"modId": "tabletopgames"
+			}
+		]
+	}
+]

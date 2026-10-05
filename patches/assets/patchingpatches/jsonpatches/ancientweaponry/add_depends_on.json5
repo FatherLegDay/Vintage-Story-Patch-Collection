@@ -1,0 +1,23 @@
+[
+    {
+        "file": "@ancientweaponry:patches/compatibilities/wavyswords/itemtypes/*.json",
+        "op": "add",
+        "path": "/-/dependsOn",
+        "value": [{ "modId": "wavyswords" }],
+        "dependsOn": [{ "modId": "ancientweaponry" }]
+    },
+    {
+        "file": "@ancientweaponry:patches/compatibilities/wavyswords/recipes/grid/*.json",
+        "op": "add",
+        "path": "/-/dependsOn",
+        "value": [{ "modId": "wavyswords" }],
+        "dependsOn": [{ "modId": "ancientweaponry" }]
+    },
+    {
+        "file": "@ancientweaponry:patches/compatibilities/wavyswords/recipes/smithing/*.json",
+        "op": "add",
+        "path": "/-/dependsOn",
+        "value": [{ "modId": "wavyswords" }],
+        "dependsOn": [{ "modId": "ancientweaponry" }]
+    }
+]

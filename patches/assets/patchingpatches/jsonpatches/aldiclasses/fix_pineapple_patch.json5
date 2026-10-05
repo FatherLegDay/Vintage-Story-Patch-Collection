@@ -1,0 +1,10 @@
+// For some reason, wildcraft trees fucks with pineapple drops? If both are loaded, fix the patch
+[
+    {
+        "file": "aldiclasses:patches/cropsdroprate/survival-blocktypes-plant-crop-pineapple.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/dropsByType/*-16/0/dropModbyStat",
+        "dependsOn": [{ "modId": "aldiclasses" }, { "modId": "wildcraftfruit" }]
+    }
+]

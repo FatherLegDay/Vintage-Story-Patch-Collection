@@ -1,0 +1,10 @@
+[
+    // The file floralzoneseastasiaticregion:itemtypes/resource/plank.json doesn't actually exist.
+    {
+        "file": "tabletopgames:patches/compatibility-floralzones/add-to-creative-inventory.json",
+        "op": "addmerge",
+        "path": "/-/file=floralzoneseastasiaticregion:itemtypes//resource//plank.json/enabled",
+        "value": false,
+        "dependsOn": [{ "modId": "tabletopgames" }]
+    }
+]

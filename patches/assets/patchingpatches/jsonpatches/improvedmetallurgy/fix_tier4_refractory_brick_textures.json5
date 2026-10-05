@@ -1,0 +1,43 @@
+[
+	{
+		"file": "game:itemtypes/resource/refractorybrick.json",
+		"op": "replace",
+		"path": "/texturesByType",
+		"value": {
+			"*-raw-tier4": {
+				"0": { // Why is this a zero but the vanilla ones are not? Weird...
+					"base": "improved_metallurgy:block/clay/refractory/tier4/raw-side"
+				}
+			},
+			"*-fired-tier4": {
+                "0": { // Why is this a zero but the vanilla ones are not? Weird...
+					"base": "improved_metallurgy:block/clay/refractory/tier4/side"
+				}
+			},
+			"*-raw-*": {
+				"material": {
+					"base": "block/clay/refractory/{type}/{state}-side"
+				},
+				"top": {
+					"base": "block/clay/refractory/{type}/{state}-top"
+				}
+			},
+			"*-fired-*": {
+				"material": {
+					"base": "block/clay/refractory/{type}/side"
+				},
+				"top": {
+					"base": "block/clay/refractory/{type}/top"
+				}
+			}
+		},
+		"dependsOn": [
+			{
+				"modId": "improvedmetallurgy"
+			},
+			{
+				"modId": "bricklayers"
+			}
+		]
+	}
+]

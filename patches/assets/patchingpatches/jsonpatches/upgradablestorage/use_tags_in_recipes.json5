@@ -1,0 +1,260 @@
+[
+    //Chests
+    {
+        "file": "upgradablestorage:recipes/grid/chest/copper-chest.json",
+        "op": "replace",
+        "path": "/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/chest/tinbronze-chest.json",
+        "op": "replace",
+        "path": "/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/chest/bismuthbronze-chest.json",
+        "op": "replace",
+        "path": "/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/chest/bismuthbronze-chest.json",
+        "op": "replace",
+        "path": "/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/chest/iron-chest.json",
+        "op": "replace",
+        "path": "/0-2/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/chest/steel-chest.json",
+        "op": "replace",
+        "path": "/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    //Labled Chests
+    {
+        "file": "upgradablestorage:recipes/grid/labeledchest/copper-labeledchest.json",
+        "op": "replace",
+        "path": "/0-1/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    //Spelled wrong in the original mod
+    {
+        "file": "upgradablestorage:recipes/grid/labeledchest/tinbronze-labeledches.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledchest/bismuthbronze-labeledchest.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledchest/iron-labeledchest.json",
+        "op": "replace",
+        "path": "/0-2/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledchest/steel-labeledchest.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 2
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    //Trunk
+    {
+        "file": "upgradablestorage:recipes/grid/trunk/copper-trunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/trunk/tinbronze-trunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/trunk/bismuthbronze-trunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/trunk/bismuthbronze-trunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/trunk/iron-trunk.json",
+        "op": "replace",
+        "path": "/0-2/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/trunk/steel-trunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    //Labeled Trunk
+    {
+        "file": "upgradablestorage:recipes/grid/labeledtrunk/copper-labeledtrunk.json",
+        "op": "replace",
+        "path": "/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledtrunk/tinbronze-labeledtrunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledtrunk/bismuthbronze-labeledtrunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledtrunk/bismuthbronze-labeledtrunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledtrunk/iron-labeledtrunk.json",
+        "op": "replace",
+        "path": "/0-2/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    },
+    {
+        "file": "upgradablestorage:recipes/grid/labeledtrunk/steel-labeledtrunk.json",
+        "op": "replace",
+        "path": "/0/ingredients/S",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ],
+            "quantity": 4
+        },
+        "dependsOn": [ { "modId": "upgradablestorage" } ]
+    }
+]

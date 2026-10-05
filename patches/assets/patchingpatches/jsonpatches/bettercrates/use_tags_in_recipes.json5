@@ -1,0 +1,112 @@
+[
+    {
+        "file": "bettercrates:recipes/grid/bettercrate.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/bettercrate2.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/bettercrate2sided.json",
+        "op": "replace",
+        "path": "/0-1/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradecopper.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradecopper2.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradebronze.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradebronze2.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradeiron.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradeiron2.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradesteel.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    },
+    {
+        "file": "bettercrates:recipes/grid/upgradesteel2.json",
+        "op": "replace",
+        "path": "/ingredients/B",
+        "value": {
+            "type": "item",
+            "tags": [ "resource-plank" ]
+        },
+        "dependsOn": [ { "modId": "bettercrates" } ]
+    }
+]

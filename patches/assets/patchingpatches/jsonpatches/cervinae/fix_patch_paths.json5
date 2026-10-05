@@ -1,0 +1,66 @@
+[
+    // Reef Fish
+    {
+        "file": "cervinae:patches/animalbehaviors/survival-entities-animal-fish-reef-adult.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/6/aitasks/3/entityCodes/-",
+        "dependsOn": [{ "modId": "cervinae" }]
+    },
+    
+    // Fresh Water Fish
+    {
+        "file": "cervinae:patches/animalbehaviors/survival-entities-animal-fish-salmon.json",
+        "op": "replace",
+        "path": "/0/file",
+        "value": "game:entities/animal/fish/freshwater-adult.json"
+    },
+    {
+        "file": "cervinae:patches/animalbehaviors/survival-entities-animal-fish-salmon.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/6/aitasks/5/entityCodes/-",
+        "dependsOn": [{ "modId": "cervinae" }]
+    },
+    
+    // Salt Water Fish
+    {
+        "file": "cervinae:patches/animalbehaviors/survival-entities-animal-fish-saltwater-adult.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/6/aitasks/3/entityCodes/-",
+        "dependsOn": [{ "modId": "cervinae" }]
+    },
+    
+    // Bears
+    {
+        "file": "cervinae:patches/animalbehaviors/survival-entities-animal-mammal-bear-adult.json",
+        "op": "replace",
+        "path": "/0/path",
+        "value": "/server/behaviors/9/aitasks/3/entityCodesByType/*/-",
+        "dependsOn": [{ "modId": "cervinae" }]
+    },
+    {
+        "file": "cervinae:patches/animalbehaviors/survival-entities-animal-mammal-bear-adult.json",
+        "op": "replace",
+        "path": "/1/path",
+        "value": "/server/behaviors/9/aitasks/4/entityCodes/-",
+        "dependsOn": [{ "modId": "cervinae" }]
+    },
+    
+    // Attachables
+    {
+        "file": "cervinae:patches/attachment-patch.json",
+        "op": "replace",
+        "path": "/0/file",
+        "value": "game:blocktypes/clay/fired/pot.json",
+        "dependsOn": [{ "modId": "cervinae" }]
+    },
+    {
+        "file": "cervinae:patches/attachment-patch.json",
+        "op": "replace",
+        "path": "/1/path",
+        "value": "/attributesByType/*-up/attachableToEntityByType/lantern-small-*/attachedShapeBySlotCode",
+        "dependsOn": [{ "modId": "cervinae" }]
+    }
+]

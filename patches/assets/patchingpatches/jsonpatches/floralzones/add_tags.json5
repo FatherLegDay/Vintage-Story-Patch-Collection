@@ -1,0 +1,44 @@
+[
+    {
+        "file": "floralzonescaperegion:itemtypes/resource/plank.json",
+        "op": "add",
+        "path": "/tags",
+        "value": [ "resource-plank" ],
+        "dependsOn": [{ "modId": "floralzonescaperegion" }]
+    },
+    {
+        "file": "floralzonescaperegion:itemtypes/resource/plank.json",
+        "op": "add",
+        "path": "/tags",
+        "value": [ "resource-plank" ],
+        "dependsOn": [{ "modId": "floralzonescaperegion" }]
+    },
+    {
+        "file": "floralzonesmediterraneanregion:itemtypes/resource/plank.json",
+        "op": "add",
+        "path": "/tags",
+        "value": [ "resource-plank" ],
+        "dependsOn": [{ "modId": "floralzonesmediterraneanregion" }]
+    },
+    {
+        "file": "floralzonescaribbeanregion:itemtypes/resource/plank.json",
+        "op": "add",
+        "path": "/tags",
+        "value": [ "resource-plank" ],
+        "dependsOn": [{ "modId": "floralzonescaribbeanregion" }]
+    },
+    {
+        "file": "floralzonescentralaustralianregion:itemtypes/resource/plank.json",
+        "op": "add",
+        "path": "/tags",
+        "value": [ "resource-plank" ],
+        "dependsOn": [{ "modId": "floralzonescentralaustralianregion" }]
+    },
+    {
+        "file": "floralzonesneozeylandicregion:itemtypes/resource/plank.json",
+        "op": "add",
+        "path": "/tags",
+        "value": [ "resource-plank" ],
+        "dependsOn": [{ "modId": "floralzonesneozeylandicregion" }]
+    }
+]

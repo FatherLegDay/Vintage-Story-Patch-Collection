@@ -1,0 +1,122 @@
+[
+	//Default: 6 Salted Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/20/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 5 Salted Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/19/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 4 Salted Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/18/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 3 Salted Large Hides	
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/17/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 2 Salted Large Hides	
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/16/output/quantity",
+        "value": 1,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 6 Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/13/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 5 Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/12/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 4 Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/11/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 3 Large Hides	
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/10/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 2 Large Hides	
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/9/output/quantity",
+        "value": 1,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 6 Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/6/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 5 Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/5/output/quantity",
+        "value": 3,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 4 Large Hides
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/4/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 3 Large Hides	
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/3/output/quantity",
+        "value": 2,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    },
+	//Default: 2 Large Hides	
+    {
+        "file": "pantherinae:recipes/grid/hide.json",
+        "op": "replace",
+        "path": "/2/output/quantity",
+        "value": 1,
+        "dependsOn": [{ "modId": "pantherinae" }]
+    }
+]
