@@ -1,4 +1,5 @@
 [
+    //changes Upgradable storage recipes to use "resource-plank", Use with game/add_tags.json5
     //Chests
     {
         "file": "upgradablestorage:recipes/grid/chest/copper-chest.json",
