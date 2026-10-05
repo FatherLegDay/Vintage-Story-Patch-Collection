@@ -1,5 +1,6 @@
 [
     {
+        //changes aldi's classes fruitpress recipe to use "resource-plank", Use with game/add_tags.json5
         "file": "aldiclasses:recipes/grid/veganingeinuity-fruitpress.json",
         "op": "replace",
         "path": "/0/ingredients/P",
