@@ -1,5 +1,6 @@
 [
     {
+        //changes game bellows recipe to use "resource-plank", Use with game/add_tags.json5
         "file": "game:recipes/grid/bellows.json",
         "op": "replace",
         "path": "/2-3/ingredients/P",
@@ -10,6 +11,7 @@
         }
     },
     {
+        //changes game bellows recipe to use "resource-plank", Use with game/add_tags.json5
         "file": "game:recipes/grid/fruitpress.json",
         "op": "replace",
         "path": "/0/ingredients/P",
