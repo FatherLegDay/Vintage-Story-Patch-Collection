@@ -1,9 +1,0 @@
-[
-    {
-        "file": "darkerwalnut:patches/purposefulstorage.json",
-        "op": "replace",
-        "path": "/file=purposefulstorage:blocktypes//general//hatrack/file",
-        "value": "purposefulstorage:blocktypes/clothes/hatrack",
-        "dependsOn": [{ "modId": "darkerwalnut" }]
-    }
-]
